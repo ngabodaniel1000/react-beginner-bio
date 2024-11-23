@@ -1,0 +1,142 @@
+.two{
+  display: flex;
+  flex-direction: column;
+  background: black;
+  width: 87%;
+  height: fit-content;
+  position: absolute;
+  left: 12%;
+  }
+  .two img{
+    width: 100px;
+  }
+  .two .intro{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .two .intro h1{
+    background: transparent;
+    color: #fff;
+    
+  }
+  .two .intro h2{
+    background: transparent;
+    color: #fff;
+    margin-left: 00px;
+  }
+  .two .intro img{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    
+  }
+  .section-1{
+    margin-top: -40px;
+    background: #000;
+    color: #fff;
+  }
+  .section-1 p{
+    color: grey;
+    background: #000;
+    margin-left: 100px;
+    /* margin-bottom: 20px; */
+  }
+  .section-1 h1{
+    background: #000;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-bottom: -10px;
+  }
+  .section-2{
+    background: #000;
+  }
+  .section-2 h1{
+    background: #000;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: -10px;
+
+
+  }
+  .section-2 h2{
+    background: #000;
+    color: #fff;
+  }
+  .section-3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+  }
+  .section-3 img{
+    width: 80px;
+    border-radius: 50%;
+    height: 80px;
+    margin-left: 200px;
+  }
+  .section-3 h1{
+    color: #fff;
+    margin-left: 500px;
+  }
+.section-3 .review-1{
+  display: flex;
+  gap: 50px
+}
+.section-4 #null{
+  width: 200px;
+  background: transparent;
+  height: 400px;
+}
+.section-4{
+  color: #fff;
+  display: flex;
+  gap: 40px;
+}
+.section-4 h1{
+  margin-left: 400px;
+}
+.section-4 .photo{
+  display: flex;
+  flex-direction: column;
+}
+#photos{
+  display: flex;
+  gap:100px;
+  margin-bottom: 20px;
+}
+#photos img{
+  width: 250px;
+}
+.section-5{
+  color: #fff;
+  display: flex;
+  gap: 40px;
+}
+.section-5 #null{
+  width: 200px;
+  background: transparent;
+  height: 400px;
+}
+.section-5 input{
+  width: 600px;
+  height: 45px;
+  color: #fff;
+  outline: none;
+  border-color: #fff;
+}
+.section-5 button{
+  width: 300px;
+  height: 50px;
+  background: #fff;
+  margin-left: 150px;
+}
+.section-5 ::placeholder{
+  text-align: center;
+  font-size: larger;
+}

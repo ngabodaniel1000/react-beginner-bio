@@ -1,0 +1,45 @@
+
+.one{
+    display: flex;
+    flex-direction: column;
+    width: 13%;
+    height: 100vh;
+    background: black;
+    position: fixed;
+    
+    }
+.one img{
+  width: 90%;
+  height: 170px;
+opacity: 0.4;
+}
+.one ul{
+    display: block;
+    height: 80vh;
+    background: #333;
+    margin-left: -8px;
+}
+.one ul li{
+    display: block;
+    background: #333;
+    padding: 20px;
+    color: #fff;
+    border-bottom: 1px solid black;
+    margin-left: 0px;
+    font-size: large;
+    width: 100%;
+}
+.one ul li:hover{
+    display: block;
+    background: black;
+    padding: 20px;
+    color: #fff;
+    border-bottom: 1px solid black;
+    margin-left: 0px;
+    font-size: large;
+}
+.one a{
+    color: #fff;
+    text-decoration: none;
+    background: transparent;
+}

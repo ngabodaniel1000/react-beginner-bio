@@ -1,0 +1,18 @@
+.About{
+   
+        display: flex;
+        flex-direction: column;
+        background: #101010;
+        width: 87%;
+        height: 500px;
+        position: absolute;
+        left: 13.7%;
+        padding-top: 20px;
+        
+}
+fieldset{
+    width: fit-content;
+    padding: 30px;
+    font-size: medium;
+    margin-left: 440px;
+}
